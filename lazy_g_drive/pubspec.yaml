@@ -8,7 +8,11 @@ environment:
 
 dependencies:
   googleapis: ^11.2.0
-  lazy_extensions: ^2.1.0
+  lazy_extensions:
+    git:
+      url: https://github.com/Gunzilla-Games/flutter_lazy
+      ref: main
+      path: lazy_extensions
   lazy_http_client: ^2.0.0
   lazy_log: ^2.0.0
   # lazy_extensions:
