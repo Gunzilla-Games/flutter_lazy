@@ -13,7 +13,10 @@ dependencies:
       url: https://github.com/Gunzilla-Games/flutter_lazy
       ref: main
       path: lazy_extensions
-  lazy_http_client: ^2.0.0
+  lazy_http_client:
+    git: https://github.com/Gunzilla-Games/flutter_lazy
+    ref: main
+    path: lazy_http_client
   lazy_log: ^2.0.0
   # lazy_extensions:
   #   path: ../lazy_extensions
